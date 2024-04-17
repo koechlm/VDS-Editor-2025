@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>VDS_Editor_2025_CAD</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Vault\**" />
+    <EmbeddedResource Remove="Vault\**" />
+    <None Remove="Vault\**" />
+    <Page Remove="Vault\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SDK-Refs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.Connectivity.WebServices">
+      <HintPath>SDK-Refs\Autodesk.Connectivity.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.DataManagement.Client.Framework.Forms">
+      <HintPath>SDK-Refs\Autodesk.DataManagement.Client.Framework.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="dataStandard.UI">
+      <HintPath>SDK-Refs\dataStandard.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>SDK-Refs\log4net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
