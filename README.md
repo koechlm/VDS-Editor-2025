@@ -1,6 +1,6 @@
 # VDS-Editor-2025
 
-You can open this solution in 2022 (any edition) to edit the Vault Data Standard 2025 default configuration files.
+You can open this solution in Visual Studio 2022 (any edition) to edit the Vault Data Standard 2025 default configuration files.
 Note - all configuration files are linked to the default installation path.
 <img width="919" height="463" alt="image" src="https://github.com/user-attachments/assets/7af2e20d-dfd5-4d17-bda2-d8a934aad6d1" />
 
